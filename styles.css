@@ -1,0 +1,105 @@
+body {
+    background: url("./images/wallpaper.jpeg");
+    margin: 0;
+    padding: 0;
+  }
+  
+  #top {
+    background: #919aac;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px; */
+    /* padding: 20px 0 0 20px; */
+    padding-left: 50px;
+  }
+  
+  .desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    width: 1000px;
+    margin: 50px auto;
+  }
+  
+  .desc_content {
+    /* background: red; */
+  }
+  
+  nav {
+    width: 400px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 150px;
+  }
+  
+  #foot {
+    background: green;
+  }
+  
+  .pets_container {
+    display: flex;
+  }
+  
+  .main_image {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .main_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .grid {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pets_container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+  }
+  
+  .mini_image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .mini_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cat_content {
+    background: pink;
+    padding: 10px;
+  }
+  
+  .dog_content {
+    background: #b8c3d3;
+    padding: 10px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+  }
+  .My_logo{
+    width: 150px
+  }
+  .my_image{
+    width: 100%;
+  }
